@@ -5,6 +5,10 @@
 # Ignore paths that may contain user-generated content
 /web/sites/*/private
 /web/sites/*/files-private
+/web/sites/*/2023-06
+/web/sites/*/pictures
+/web/sites/*/paragraphs_type_icon
+/web/sites/*/styles
 
 # Ignore paths that may contain temporary files
 /web/sites/*/translations
