@@ -43,13 +43,8 @@
 /web/update.php
 /web/web.config
 
+/web/modules
+/web/themes
+
 # Ignore vendor dependencies and scripts
 /vendor
-/composer.phar
-/composer
-/robo.phar
-/robo
-/drush.phar
-/drush
-/drupal.phar
-/drupal
