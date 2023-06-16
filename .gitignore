@@ -5,10 +5,12 @@
 # Ignore paths that may contain user-generated content
 /web/sites/*/private
 /web/sites/*/files-private
-/web/sites/*/2023-06
-/web/sites/*/pictures
-/web/sites/*/paragraphs_type_icon
-/web/sites/*/styles
+/web/sites/default/files/2023-06
+/web/sites/default/files/pictures
+/web/sites/default/files/paragraphs_type_icon
+/web/sites/default/files/styles
+/web/sites/default/files/css
+/web/sites/default/files/js
 
 # Ignore paths that may contain temporary files
 /web/sites/*/translations
