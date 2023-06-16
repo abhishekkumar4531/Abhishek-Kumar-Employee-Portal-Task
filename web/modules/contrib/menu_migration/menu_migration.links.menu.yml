@@ -1,0 +1,5 @@
+menu_migration.overview:
+  title: 'Menu migration'
+  description: 'Import and export menu content links.'
+  route_name: menu_migration.export
+  parent: system.admin_config_development

@@ -1,0 +1,14 @@
+menu_migration.export:
+  route_name: menu_migration.export
+  base_route: menu_migration.export
+  title: 'Export'
+
+menu_migration.import:
+  route_name: menu_migration.import
+  title: 'Import'
+  base_route: menu_migration.export
+
+menu_migration.settings:
+  route_name: menu_migration.settings
+  title: 'Settings'
+  base_route: menu_migration.export

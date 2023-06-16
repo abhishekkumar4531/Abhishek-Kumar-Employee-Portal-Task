@@ -1,0 +1,23 @@
+menu_migration.settings:
+  path: '/admin/config/development/menu-migration'
+  defaults:
+    _form: '\Drupal\menu_migration\Form\SettingsForm'
+    _title: 'Menu migration'
+  requirements:
+    _permission: 'administer menu migration'
+
+menu_migration.import:
+  path: '/admin/config/development/menu-migration-import'
+  defaults:
+    _form: '\Drupal\menu_migration\Form\MenuItemsImport'
+    _title: 'Import menu items'
+  requirements:
+    _permission: 'perform import on menu migrations'
+
+menu_migration.export:
+  path: '/admin/config/development/menu-migration-export'
+  defaults:
+    _form: '\Drupal\menu_migration\Form\MenuItemsExport'
+    _title: 'Export menu items'
+  requirements:
+    _permission: 'perform export on menu migrations'

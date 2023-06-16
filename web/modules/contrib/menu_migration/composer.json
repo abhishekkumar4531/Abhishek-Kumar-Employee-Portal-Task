@@ -1,0 +1,24 @@
+{
+    "name": "drupal/menu_migration",
+    "description": "Provides a basic menus import/export functionality.",
+    "type": "drupal-module",
+    "homepage": "https://www.drupal.org/project/menu_migration",
+    "authors": [
+        {
+            "name": "Cristina Bujiță",
+            "homepage": "https://www.drupal.org/u/bbu23"
+        }
+    ],
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/menu_migration",
+        "source": "https://git.drupalcode.org/project/menu_migration"
+    },
+    "license": "GPL-2.0-or-later",
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^9 || ^10 || ^11"
+            }
+        }
+    }
+}

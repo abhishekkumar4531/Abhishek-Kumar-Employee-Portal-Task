@@ -1,0 +1,11 @@
+services:
+  menu_migration.commands:
+    class: \Drupal\menu_migration\Commands\MenuMigrationCommands
+    arguments: [ '@menu_migration.import_export' ]
+    tags:
+      - { name: drush.command }
+
+  menu_migration.import_export:
+    class: Drupal\menu_migration\Service\MenuMigrationService
+    arguments: [ '@entity_type.manager', '@config.factory', '@file_system', '@menu.link_tree', '@request_stack' ]
+

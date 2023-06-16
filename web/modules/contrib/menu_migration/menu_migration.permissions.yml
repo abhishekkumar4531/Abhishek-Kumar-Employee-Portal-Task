@@ -1,0 +1,8 @@
+administer menu migration:
+  title: 'Administer menu migration'
+  description: 'Administer the global settings for menu migration.'
+  restrict access: true
+perform export on menu migrations:
+  title: 'Perform export on menu migrations'
+perform import on menu migrations:
+  title: 'Perform import on menu migrations'
