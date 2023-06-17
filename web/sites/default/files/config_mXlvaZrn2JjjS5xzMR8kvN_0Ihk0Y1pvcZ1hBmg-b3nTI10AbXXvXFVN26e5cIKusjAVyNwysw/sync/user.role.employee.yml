@@ -1,0 +1,53 @@
+uuid: ab696ee9-a014-4d2a-9eb6-855d0049ee02
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+    - node.type.employee
+    - taxonomy.vocabulary.tags
+  module:
+    - block
+    - block_content
+    - comment
+    - contact
+    - contextual
+    - devel_generate
+    - field_ui
+    - file
+    - image
+    - metatag
+    - node
+    - paragraphs
+    - taxonomy
+    - toolbar
+id: employee
+label: Employee
+weight: 5
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'administer block_content display'
+  - 'administer blocks'
+  - 'administer comment display'
+  - 'administer comment form display'
+  - 'administer contact_message form display'
+  - 'administer devel_generate'
+  - 'administer image styles'
+  - 'administer meta tags'
+  - 'administer node display'
+  - 'administer node form display'
+  - 'administer paragraph display'
+  - 'administer paragraph form display'
+  - 'administer taxonomy_term display'
+  - 'administer taxonomy_term form display'
+  - 'change own username'
+  - 'create blog content'
+  - 'create terms in tags'
+  - 'delete own blog content'
+  - 'delete terms in tags'
+  - 'edit own blog content'
+  - 'edit own employee content'
+  - 'edit terms in tags'

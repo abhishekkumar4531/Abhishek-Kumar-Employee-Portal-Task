@@ -1,0 +1,21 @@
+uuid: c4fb4bc0-4caa-4365-b050-159654bce915
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_company
+    - paragraphs.paragraphs_type.background
+id: paragraph.background.field_company
+field_name: field_company
+entity_type: paragraph
+bundle: background
+label: Company
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Innoraft Solution Pvt. Lmt.'
+default_value_callback: ''
+settings: {  }
+field_type: string

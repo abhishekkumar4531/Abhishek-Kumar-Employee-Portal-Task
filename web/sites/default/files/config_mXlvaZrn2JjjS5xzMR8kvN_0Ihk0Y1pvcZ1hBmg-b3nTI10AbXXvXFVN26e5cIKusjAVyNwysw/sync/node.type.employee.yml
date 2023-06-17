@@ -1,0 +1,17 @@
+uuid: 173baac9-1cd4-478e-8373-495ede7f6cd0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Employee
+type: employee
+description: 'Add employee'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

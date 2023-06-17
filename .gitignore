@@ -1,0 +1,54 @@
+# Ignore configuration files that may contain sensitive information
+/web/sites/*/*settings*.php
+/web/sites/*/*services*.yml
+
+# Ignore paths that may contain user-generated content
+/web/sites/*/private
+/web/sites/*/files-private
+/web/sites/default/files/2023-06
+/web/sites/default/files/pictures
+/web/sites/default/files/paragraphs_type_icon
+/web/sites/default/files/styles
+/web/sites/default/files/css
+/web/sites/default/files/js
+/web/sites/default/files/php
+
+# Ignore paths that may contain temporary files
+/web/sites/*/translations
+/web/sites/*/tmp
+/web/sites/*/cache
+
+# Ignore drupal core (if not versioning drupal sources)
+/web/vendor
+/web/core
+/web/modules/README.txt
+/web/profiles/README.txt
+/web/sites/development.services.yml
+/web/sites/example.settings.local.php
+/web/sites/example.sites.php
+/web/sites/README.txt
+/web/themes/README.txt
+/web/.csslintrc
+/web/.editorconfig
+/web/.eslintignore
+/web/.eslintrc.json
+/web/.gitattributes
+/web/.htaccess
+/web/.ht.router.php
+/web/autoload.php
+/web/composer.json
+/web/composer.lock
+/web/example.gitignore
+/web/index.php
+/web/INSTALL.txt
+/web/LICENSE.txt
+/web/README.txt
+/web/robots.txt
+/web/update.php
+/web/web.config
+
+/web/modules/contrib
+/web/themes/contrib
+
+# Ignore vendor dependencies and scripts
+/vendor

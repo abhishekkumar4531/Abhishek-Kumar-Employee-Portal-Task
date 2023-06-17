@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 6d96f639-b37c-44f7-998c-99e0e7dd8d2f
+name: 'Employee Portal'
+mail: abhishek.kumar@innoraft.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/23
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

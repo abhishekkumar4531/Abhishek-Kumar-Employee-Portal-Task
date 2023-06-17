@@ -1,0 +1,64 @@
+uuid: cd551292-1771-4b01-9d89-3745d37ab45b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.add_project.field_add_employee
+    - field.field.node.add_project.field_customer_name
+    - field.field.node.add_project.field_project_image
+    - field.field.node.add_project.field_project_team
+    - field.field.node.add_project.field_start_date
+    - image.style.medium
+    - node.type.add_project
+  module:
+    - datetime
+    - image
+    - user
+id: node.add_project.default
+targetEntityType: node
+bundle: add_project
+mode: default
+content:
+  field_customer_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_project_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_project_team:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_start_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_add_employee: true

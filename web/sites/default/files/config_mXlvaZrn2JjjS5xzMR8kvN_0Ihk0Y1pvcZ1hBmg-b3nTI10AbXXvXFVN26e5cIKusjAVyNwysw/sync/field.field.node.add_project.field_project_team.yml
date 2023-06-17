@@ -1,0 +1,29 @@
+uuid: 8cced298-6956-40fb-a834-243f3ed80cbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_team
+    - node.type.add_project
+    - node.type.page
+id: node.add_project.field_project_team
+field_name: field_project_team
+entity_type: node
+bundle: add_project
+label: 'Project Team'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      page: page
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

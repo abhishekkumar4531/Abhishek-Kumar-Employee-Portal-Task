@@ -1,0 +1,39 @@
+uuid: adc03db6-c0cf-46e6-8956-26280763a9f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.background.field_age
+    - field.field.paragraph.background.field_company
+    - field.field.paragraph.background.field_salary
+    - paragraphs.paragraphs_type.background
+id: paragraph.background.default
+targetEntityType: paragraph
+bundle: background
+mode: default
+content:
+  field_age:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_company:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_salary:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

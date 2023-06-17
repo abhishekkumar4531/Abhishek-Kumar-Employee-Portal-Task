@@ -1,0 +1,29 @@
+uuid: 95e4107e-b74e-4d5f-8dc3-8a8d46bc74a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employee_title
+    - node.type.employee
+    - taxonomy.vocabulary.title
+id: node.employee.field_employee_title
+field_name: field_employee_title
+entity_type: node
+bundle: employee
+label: 'Employee title'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      title: title
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

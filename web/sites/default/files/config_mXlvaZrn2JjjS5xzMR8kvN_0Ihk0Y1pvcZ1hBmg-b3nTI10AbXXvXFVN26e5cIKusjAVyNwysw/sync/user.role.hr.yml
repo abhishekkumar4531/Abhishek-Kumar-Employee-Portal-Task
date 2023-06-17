@@ -1,0 +1,65 @@
+uuid: 47a29871-a5ac-4efe-9a70-30abc74505fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+    - node.type.employee
+    - taxonomy.vocabulary.tags
+  module:
+    - block
+    - block_content
+    - comment
+    - contact
+    - contextual
+    - devel_generate
+    - field_ui
+    - file
+    - image
+    - maillog
+    - metatag
+    - node
+    - paragraphs
+    - system
+    - taxonomy
+    - toolbar
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer block_content display'
+  - 'administer blocks'
+  - 'administer comment display'
+  - 'administer comment form display'
+  - 'administer contact_message form display'
+  - 'administer devel_generate'
+  - 'administer image styles'
+  - 'administer menu'
+  - 'administer meta tags'
+  - 'administer node display'
+  - 'administer node form display'
+  - 'administer paragraph display'
+  - 'administer paragraph form display'
+  - 'administer taxonomy_term display'
+  - 'administer taxonomy_term form display'
+  - 'administer users'
+  - 'change own username'
+  - 'create blog content'
+  - 'create employee content'
+  - 'create terms in tags'
+  - 'delete any employee content'
+  - 'delete own blog content'
+  - 'delete own employee content'
+  - 'delete terms in tags'
+  - 'edit any employee content'
+  - 'edit own blog content'
+  - 'edit own employee content'
+  - 'edit terms in tags'
+  - 'view maillog'
