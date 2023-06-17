@@ -1,0 +1,21 @@
+uuid: f898993b-fa0c-4ba7-875a-d13b239e84df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_salary
+    - paragraphs.paragraphs_type.background
+id: paragraph.background.field_salary
+field_name: field_salary
+entity_type: paragraph
+bundle: background
+label: Salary
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '$ 66k / year'
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -11,6 +11,7 @@
 /web/sites/default/files/styles
 /web/sites/default/files/css
 /web/sites/default/files/js
+/web/sites/default/files/php
 
 # Ignore paths that may contain temporary files
 /web/sites/*/translations

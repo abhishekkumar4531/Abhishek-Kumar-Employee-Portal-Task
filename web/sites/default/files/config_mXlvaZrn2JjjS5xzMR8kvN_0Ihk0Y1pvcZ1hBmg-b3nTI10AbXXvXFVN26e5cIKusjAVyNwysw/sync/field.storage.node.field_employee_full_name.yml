@@ -1,0 +1,21 @@
+uuid: 9aa72e3b-c489-4969-b985-62e29aa2633e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_employee_full_name
+field_name: field_employee_full_name
+entity_type: node
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

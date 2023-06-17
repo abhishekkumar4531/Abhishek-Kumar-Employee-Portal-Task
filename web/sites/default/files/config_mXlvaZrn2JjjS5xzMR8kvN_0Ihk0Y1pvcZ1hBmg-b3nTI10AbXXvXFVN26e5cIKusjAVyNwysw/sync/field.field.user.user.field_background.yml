@@ -1,0 +1,31 @@
+uuid: fa02726e-7c4e-4160-bdf0-aefabca47a33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_background
+    - paragraphs.paragraphs_type.background
+  module:
+    - entity_reference_revisions
+    - user
+id: user.user.field_background
+field_name: field_background
+entity_type: user
+bundle: user
+label: Background
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      background: background
+    negate: 0
+    target_bundles_drag_drop:
+      background:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

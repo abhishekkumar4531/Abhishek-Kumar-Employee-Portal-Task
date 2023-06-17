@@ -1,0 +1,17 @@
+uuid: dc952a1c-b057-4746-b998-b56daeba9a39
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Add Project'
+type: add_project
+description: 'Add project'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

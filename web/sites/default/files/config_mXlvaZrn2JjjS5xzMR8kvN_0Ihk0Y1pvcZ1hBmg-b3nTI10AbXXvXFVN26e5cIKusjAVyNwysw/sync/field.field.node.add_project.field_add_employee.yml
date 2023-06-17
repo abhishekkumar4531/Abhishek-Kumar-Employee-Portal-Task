@@ -1,0 +1,34 @@
+uuid: 07f25226-0213-4d82-b274-71d0f3ded024
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_employee
+    - node.type.add_project
+id: node.add_project.field_add_employee
+field_name: field_add_employee
+entity_type: node
+bundle: add_project
+label: 'Add employee'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: role
+      role:
+        employee: employee
+        content_editor: '0'
+        administrator: '0'
+        hr: '0'
+    include_anonymous: true
+field_type: entity_reference

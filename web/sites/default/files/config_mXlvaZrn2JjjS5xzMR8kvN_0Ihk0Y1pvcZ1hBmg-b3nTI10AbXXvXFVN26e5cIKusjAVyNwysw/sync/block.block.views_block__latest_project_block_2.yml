@@ -1,0 +1,38 @@
+uuid: 8597f758-612d-4acb-9b53-e249df9c5f4f
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.latest_project
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - bootstrap
+id: views_block__latest_project_block_2
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:latest_project-block_2'
+settings:
+  id: 'views_block:latest_project-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/employee/*'
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated

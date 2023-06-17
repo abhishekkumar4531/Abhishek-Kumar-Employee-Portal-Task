@@ -1,0 +1,27 @@
+uuid: 2cd87537-08e5-417f-8e0c-6c63974d8f73
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - bootstrap
+id: userlogin
+theme: bootstrap
+region: sidebar_first
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

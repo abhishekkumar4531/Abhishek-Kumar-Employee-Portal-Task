@@ -1,0 +1,32 @@
+uuid: e12dad54-c889-4dcd-957b-8303a0874a39
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.admin_menu
+  module:
+    - user
+    - views
+  theme:
+    - bootstrap
+id: views_block__admin_menu_block_1
+theme: bootstrap
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:admin_menu-block_1'
+settings:
+  id: 'views_block:admin_menu-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

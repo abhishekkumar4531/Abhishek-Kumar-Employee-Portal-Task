@@ -1,0 +1,84 @@
+uuid: 8f62c7a0-979a-4bb3-872d-492ae5514891
+langcode: en
+status: true
+dependencies: {  }
+id: project
+label: Project
+renderer: quick_tabs
+hide_empty_tabs: false
+default_tab: 0
+options:
+  quick_tabs:
+    ajax: true
+    class: ''
+    style: tabsbar
+configuration_data:
+  -
+    title: 'Drupal Training'
+    weight: 0
+    type: node_content
+    content:
+      block_content:
+        options:
+          bid: page_title_block
+          block_title: ''
+          display_title: false
+      view_content:
+        options:
+          vid: block_content
+          display: default
+          args: ''
+      node_content:
+        options:
+          nid: '24'
+          view_mode: full
+          hide_title: false
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Windows OS'
+    weight: 0
+    type: node_content
+    content:
+      block_content:
+        options:
+          bid: page_title_block
+          block_title: ''
+          display_title: false
+      view_content:
+        options:
+          vid: block_content
+          display: default
+          args: ''
+      node_content:
+        options:
+          nid: '25'
+          view_mode: full
+          hide_title: false
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Symfony site'
+    weight: 0
+    type: node_content
+    content:
+      block_content:
+        options:
+          bid: page_title_block
+          block_title: ''
+          display_title: false
+      view_content:
+        options:
+          vid: block_content
+          display: default
+          args: ''
+      node_content:
+        options:
+          nid: '26'
+          view_mode: full
+          hide_title: false
+      qtabs_content:
+        options:
+          machine_name: ''

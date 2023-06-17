@@ -1,0 +1,40 @@
+uuid: 9b9b7bf7-c6be-4aa1-adcb-edf0f7711cd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - bootstrap
+id: views_block__blog_block_2
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:blog-block_2'
+settings:
+  id: 'views_block:blog-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/employee/*'
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      employee: employee
